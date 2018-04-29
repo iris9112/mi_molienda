@@ -9,10 +9,6 @@ def about(request):
     template_name = 'core/about.html'
     return render(request, template_name)
 
-def services(request):
-    template_name = 'core/services.html'
-    return render(request, template_name)
-
 def store(request):
     template_name = 'core/store.html'
     return render(request, template_name)
