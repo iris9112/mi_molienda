@@ -12,7 +12,3 @@ def about(request):
 def store(request):
     template_name = 'core/store.html'
     return render(request, template_name)
-
-def contact(request):
-    template_name = 'core/contact.html'
-    return render(request, template_name)

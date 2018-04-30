@@ -3,3 +3,7 @@ Second application of the course course-django-2-practice-development-web-python
 
 ### Frontend
 This frontend is an adapted version of the theme ["Start Bootstrap Business Casual"](https://github.com/blackrockdigital/startbootstrap-business-casual)
+
+### Pendiente
+- eliminar archivos .pyc
+- agregar requeriments.txt
