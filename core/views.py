@@ -16,7 +16,3 @@ def store(request):
 def contact(request):
     template_name = 'core/contact.html'
     return render(request, template_name)
-
-def sample(request):
-    template_name = 'core/sample.html'
-    return render(request, template_name)
