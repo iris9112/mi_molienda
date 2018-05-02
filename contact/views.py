@@ -15,7 +15,5 @@ def contact(request):
             content = request.POST.get('content','')
             # suponemos que todo ha ido bien, entonces re direccionamos
             return redirect(reverse('contact')+'?ok')
-
-
-    
+  
     return render(request, template_name, {'form':contact_form})
