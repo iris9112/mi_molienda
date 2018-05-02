@@ -19,6 +19,8 @@
             <!-- Formulario de contacto -->
             {% if 'ok' in request.GET %}
                 <p>Su mensaje ha sido recibido, en breve nos comunicaremos con usted.</p>
+                {% else %}
+                <p>Algo no ha salido bien</p>
             {% endif %}
              <!--<form action="" method="POST">
                 {% csrf_token %} 
